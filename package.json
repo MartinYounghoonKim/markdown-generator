@@ -1,0 +1,29 @@
+{
+  "name": "markdown-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "babel-node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinYounghoonKim/markdown-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinYounghoonKim/markdown-generator/issues"
+  },
+  "homepage": "https://github.com/MartinYounghoonKim/markdown-generator#readme",
+  "dependencies": {
+    "markdown-it": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "ora": "^3.4.0"
+  }
+}
